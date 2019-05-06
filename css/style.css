@@ -19,3 +19,34 @@ html {
     background-color: black;
 
 }
+
+
+@media screen and (max-width:500px) {
+    .ztext {
+        /*background-color: #a50101;*/
+        background-color: black;
+        color:white;
+        padding: 1em 2em;
+        margin-top: 1em;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .ztext {
+        /*background-color: #a50101;*/
+        background-color: #1661eb;
+        color:white;
+        padding: 1em 2em;
+        margin-top: 2em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ztext {
+        /*background-color: #a50101;*/
+        background-color: #0440b1;
+        color:white;
+        padding: 1em 2em;
+        margin-top: 3em;
+    }
+}
