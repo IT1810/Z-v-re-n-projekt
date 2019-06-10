@@ -50,3 +50,29 @@ html {
         margin-top: 3em;
     }
 }
+
+#anime-text{
+    background-color: #acd25686;
+    padding: 2px;
+    margin: 20px;
+}
+#kresleni-text{
+    background-color: #acd25686;
+    padding: 2px;
+    margin: 20px;
+}
+#hry-text{
+    background-color: #acd25686;
+    padding: 2px;
+    margin: 20px;
+}
+#programovani-text{
+    background-color: #acd25686;
+    padding: 2px;
+    margin: 20px;
+}
+#formuláře-text{
+    background-color: #acd25686;
+    padding: 2px;
+    margin: 20px;
+}
