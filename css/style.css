@@ -8,10 +8,11 @@
 .text-black {
     color: black;
 }
-#carousel {
+header {
     background-color: #206659;
+    color: white;
+    text-align: center;
 }
-
 footer {
     background-color: black;
 }
@@ -50,29 +51,42 @@ html {
         margin-top: 3em;
     }
 }
-
+section {
+    background-color: #ff325686;
+    padding: 20px;
+    margin: 0px;
+}
+#uvod-text{
+    background-color: #ccd25686 !important;
+    margin-top: 0px;
+    padding: 2em 4em;
+}
 #anime-text{
-    background-color: #acd25686;
-    padding: 2px;
-    margin: 20px;
+    background-color: #ccd25686 !important;
+    margin-top: 0px;
+    padding: 2em 4em;
 }
 #kresleni-text{
-    background-color: #acd25686;
-    padding: 2px;
-    margin: 20px;
+    background-color: #ccd25686 !important;
+    margin-top: 0px;
+    padding: 2em 4em;
 }
 #hry-text{
-    background-color: #acd25686;
-    padding: 2px;
-    margin: 20px;
+    background-color: #ccd25686 !important;
+    margin-top: 0px;
+    padding: 2em 4em;
 }
 #programovani-text{
-    background-color: #acd25686;
-    padding: 2px;
-    margin: 20px;
+    background-color: #ccd25686 !important;
+    margin-top: 0px;
+    padding: 2em 4em;
 }
 #formuláře-text{
-    background-color: #acd25686;
-    padding: 2px;
-    margin: 20px;
+    background-color: #ccd25686 !important;
+    margin-top: 0px;
+    padding: 2em 4em;
+}
+#nazor1{
+    margin-left: 1em;
+    width: 95%;
 }
