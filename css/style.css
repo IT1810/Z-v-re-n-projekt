@@ -1,6 +1,14 @@
-a {
+footer a {
     text-decoration: none;
     color: white !important;
+}
+.sidenav a {
+    text-decoration: none;
+    color: white !important;
+}
+a {
+    text-decoration: none;
+    color: black !important;
 }
 
 a:hover {
