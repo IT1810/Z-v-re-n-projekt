@@ -9,7 +9,7 @@
     color: black;
 }
 header {
-    background-color: #206659;
+    background-color: #5A8200;
     color: white;
     text-align: center;
 }
@@ -38,7 +38,7 @@ html {
         background-color: #1661eb;
         color:white;
         padding: 1em 2em;
-        margin-top: 2em;
+        margin-top: 1em;
     }
 }
 
@@ -48,43 +48,65 @@ html {
         background-color: #0440b1;
         color:white;
         padding: 1em 2em;
-        margin-top: 3em;
+        margin-top: 1em;
     }
 }
 section {
-    background-color: #ff325686;
+    background-color: #04749E;
+    color: black;
+    padding: 2em;
+    margin: 0em;
+}
+form {
+    background-color: #04749E;
+    color: black;
     padding: 20px;
     margin: 0px;
 }
+thead, th, tr{
+    border: 2px solid white;
+    background-color: #0440b1;
+    
+}
+tbody, td{
+    border: 2px solid white;
+    background-color: #1460b1; 
+}
 #uvod-text{
-    background-color: #ccd25686 !important;
+    background-color: #660700 !important;
+    color: white;
     margin-top: 0px;
-    padding: 2em 4em;
+    padding: 4em 3em;
 }
 #anime-text{
-    background-color: #ccd25686 !important;
+    background-color: #660700 !important;
+    color: white;
     margin-top: 0px;
-    padding: 2em 4em;
+    padding: 4em 3em;
 }
 #kresleni-text{
-    background-color: #ccd25686 !important;
+    background-color: #660700 !important;
+    color: white;
     margin-top: 0px;
-    padding: 2em 4em;
+    padding: 4em 3em;
 }
 #hry-text{
-    background-color: #ccd25686 !important;
+    background-color: #660700 !important;
+    color: white;
     margin-top: 0px;
-    padding: 2em 4em;
+    padding: 4em 3em;
 }
 #programovani-text{
-    background-color: #ccd25686 !important;
+    background-color: #660700 !important;
+    color: white;
     margin-top: 0px;
-    padding: 2em 4em;
+    padding: 4em 3em;
 }
-#formuláře-text{
-    background-color: #ccd25686 !important;
+#formulare-text{
+    background-color: #660700 !important;
+    color: white;
     margin-top: 0px;
-    padding: 2em 4em;
+    padding: 4em 3em;
 }
 #nazor1{
     margin-left: 1em;
