@@ -1,34 +1,72 @@
-.img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+a {
+    text-decoration: none;
+    color: white !important;
 }
 
-.text-black {
-    color: black;
+a:hover {
+    color: #AAF505 !important;
 }
+
 header {
     background-color: #5A8200;
     color: white;
     text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
+
 footer {
+    padding-left: 180px;
     background-color: black;
-}
-html {
-    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin: 0px;
 
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #122;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+nav {
+    margin-left: 180px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
 
 @media screen and (max-width:500px) {
     .ztext {
         /*background-color: #a50101;*/
         background-color: black;
-        color:white;
+        color: white;
         padding: 1em 2em;
         margin-top: 1em;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 180px;
+        width: 100%;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
     }
 }
 
@@ -36,9 +74,18 @@ html {
     .ztext {
         /*background-color: #a50101;*/
         background-color: #1661eb;
-        color:white;
+        color: white;
         padding: 1em 2em;
         margin-top: 1em;
+    }
+
+    img {
+        display: block;
+        margin-left: 180px;
+        margin-right: auto;
+        width: 100%;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
     }
 }
 
@@ -46,69 +93,114 @@ html {
     .ztext {
         /*background-color: #a50101;*/
         background-color: #0440b1;
-        color:white;
+        color: white;
         padding: 1em 2em;
         margin-top: 1em;
     }
+
+    img {
+        display: block;
+        margin-left: 180px;
+        margin-right: auto;
+        width: 100%;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
 }
+
 section {
     background-color: #04749E;
     color: black;
     padding: 2em;
     margin: 0em;
 }
+
 form {
     background-color: #04749E;
     color: black;
     padding: 20px;
     margin: 0px;
 }
-thead, th, tr{
+
+table {
+    color: white;
+}
+
+html {
+    color: black;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+thead,
+th,
+tr {
     border: 2px solid white;
     background-color: #0440b1;
-    
+
 }
-tbody, td{
+
+tbody,
+td {
     border: 2px solid white;
-    background-color: #1460b1; 
+    background-color: #1460b1;
 }
-#uvod-text{
+
+#uvod-text {
     background-color: #660700 !important;
     color: white;
     margin-top: 0px;
+    margin-left: 60px;
     padding: 4em 3em;
+    padding-left: 10em;
 }
-#anime-text{
+
+#anime-text {
     background-color: #660700 !important;
     color: white;
     margin-top: 0px;
+    margin-left: 60px;
     padding: 4em 3em;
+    padding-left: 10em;
 }
-#kresleni-text{
+
+#kresleni-text {
     background-color: #660700 !important;
     color: white;
     margin-top: 0px;
+    margin-left: 60px;
     padding: 4em 3em;
+    padding-left: 10em;
 }
-#hry-text{
+
+#hry-text {
     background-color: #660700 !important;
     color: white;
     margin-top: 0px;
+    margin-left: 60px;
     padding: 4em 3em;
+    padding-left: 10em;
 }
-#programovani-text{
+
+#programovani-text {
     background-color: #660700 !important;
     color: white;
     margin-top: 0px;
+    margin-left: 60px;
     padding: 4em 3em;
+    padding-left: 10em;
 }
-#formulare-text{
+
+#formulare-text {
     background-color: #660700 !important;
     color: white;
     margin-top: 0px;
+    margin-left: 60px;
     padding: 4em 3em;
+    padding-left: 10em;
 }
-#nazor1{
+
+#nazor1 {
     margin-left: 1em;
     width: 95%;
 }

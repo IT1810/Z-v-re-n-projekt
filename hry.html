@@ -15,6 +15,14 @@
 </head>
 
 <body>
+    <div class="sidenav">
+        <a href="index.html">Úvod</a><br>
+        <a href="kresleni.html">Co kreslím</a><br>
+        <a href="programovani.html">Co umím programovat</a><br>
+        <a href="anime.html">Co za anime sleduji</a><br>
+        <a href="hry.html">Co hraji za hry</a><br>
+        <a href="form.html">Formuláře o stránkách</a><br>
+    </div>
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
         <a class="navbar-brand" href="#">Co hraji.</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
@@ -28,11 +36,11 @@
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">Stranky</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="form.html">Formuláře</a>
-                        <a class="dropdown-item" href="programovani.html">Programování</a>
-                        <a class="dropdown-item" href="anime.html">Co za žánry rád sleduji</a>
                         <a class="dropdown-item" href="kresleni.html">Co kreslím</a>
+                        <a class="dropdown-item" href="programovani.html">Programování</a>
+                        <a class="dropdown-item" href="anime.html">Co za anime sleduji</a>
                         <a class="dropdown-item" href="hry.html">Hry, které hraji/ jsem hrál</a>
+                        <a class="dropdown-item" href="form.html">Formuláře</a>
                     </div>
                 </li>
             </ul>
@@ -53,7 +61,7 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <img class="container" src="images/ac1_ss4_full_164880.jpg" alt="First slide">
+                        <img src="images/ac1_ss4_full_164880.jpg" alt="First slide">
                         <div class="carousel-caption d-none d-md-block">
                             <h3>Title</h3>
                             <p>Description</p>
@@ -227,9 +235,19 @@
                     <label for="zmena">Napište co byste změnili</label>
                     <textarea class="form-control" name="zmena" id="zmena" rows="3"></textarea>
                 </div>
+                <button type="submit" class="btn btn-primary">Potvrďte údaje</button>
             </form>
         </div>
     </main>
+    <footer>
+        <h3>Obchody platforem nabízející hry</h3>
+        <div class="grid-container">
+        <a href="https://store.steampowered.com/">Obchod Steamu</a>
+        <a href="https://www.origin.com/irl/en-us/store">Obchod Originu</a>
+        <a href="https://store.ubi.com/eu/e3-ubisoft.html">Obchod Ubisoftu</a>
+        </div>
+        <p>&copy;Tomáš Kuča</p>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
