@@ -6,7 +6,7 @@ footer a {
     text-decoration: none;
     color: white !important;
 }
-a {
+#dropDownid {
     text-decoration: none;
     color: black !important;
 }
@@ -100,7 +100,8 @@ nav {
 @media screen and (min-width: 1200px) {
     .ztext {
         /*background-color: #a50101;*/
-        background-color: #0440b1;
+        /*background-color: #0440b1;*/
+        background-color: #04749E;
         color: white;
         padding: 1em 2em;
         margin-top: 1em;
@@ -108,7 +109,7 @@ nav {
 
     img {
         display: block;
-        margin-left: 180px;
+        margin-left: 160px;
         margin-right: auto;
         width: 100%;
         padding-bottom: 0px;
