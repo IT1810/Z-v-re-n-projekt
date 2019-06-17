@@ -1,3 +1,6 @@
+#formulare p, #formulare h3{
+    color: black;
+}
 footer a {
     text-decoration: none;
     color: white !important;
@@ -20,6 +23,7 @@ header {
     color: white;
     text-align: center;
     padding: 0px;
+    padding-left: 20px;
     margin: 0px;
 }
 
@@ -71,7 +75,6 @@ nav {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 180px;
         width: 100%;
         padding-bottom: 0px;
         margin-bottom: 0px;
@@ -89,9 +92,9 @@ nav {
 
     img {
         display: block;
-        margin-left: 180px;
+        margin-left: auto;
         margin-right: auto;
-        width: 100%;
+        width: 20%;
         padding-bottom: 0px;
         margin-bottom: 0px;
     }
@@ -109,7 +112,7 @@ nav {
 
     img {
         display: block;
-        margin-left: 160px;
+        margin-left: auto;
         margin-right: auto;
         width: 100%;
         padding-bottom: 0px;
